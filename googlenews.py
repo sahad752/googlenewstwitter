@@ -8,10 +8,10 @@ from googletrans import Translator
 
 
 
-consumer_key = 'wY7XerejLPL1atRDVwBkzwGwS'
-consumer_secret = 'aUtpCjpKIuMPOvYcemjGhCkoqULqr6h31iV5rVkKJlwfdAWrHs'
-access_token = '1205498120760516608-LZA6ZmwJ5YSNzXNvpzlY3ZF8J44EiL'
-access_token_secret = 'n84JXMP5Lau7ki6Ik3nK25OWijRMOZnkqJGHgOXspAQCf'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
